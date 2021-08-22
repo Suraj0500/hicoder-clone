@@ -188,6 +188,7 @@
 
 .side-bar-btn-open {
   border: none;
+  background: none;
 }
 
 .side-bar-btn-open img {
@@ -214,6 +215,7 @@
 
 .side-bar-close-logo-btn {
   border: none;
+  background: none;
   position: relative;
   float: right;
   margin-right: 30px;
