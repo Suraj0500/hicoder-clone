@@ -10,7 +10,7 @@ function PitchSecond(){
                     <h1>Why HiCoder?</h1>
                     <p>HiCoder enables students to think about real-world problems, design, and develop the right solution. <a href="/">know more</a></p>
                     <div>
-                        <img src="/images/why-section-1.png" height="70" align="left"/>
+                        <img src="/images/why-section-1.png" height="70" align="left" alt="img"/>
                         <div>
                         <h3>Personalized Training</h3>
                         <p>We understand the weakness of students coming from poor educational backgrounds. HiCoder avails resources and extra after-class support to match the criteria and keep up with tech.</p>
@@ -18,7 +18,7 @@ function PitchSecond(){
                         
                     </div>
                     <div>
-                        <img src="/images/why-section-2.png" height="70" align="left"/>
+                        <img src="/images/why-section-2.png" height="70" align="left" alt="img"/>
                         <div>
                         <h3>Production Projects</h3>
                         <p>Every student ends up making around 3 projects that are wholesome, cloud-hosted and can be used for a commercial purpose.</p>

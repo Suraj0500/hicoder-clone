@@ -33,7 +33,7 @@ function FooterSection(){
             <div className="footer-second-container">
                 <div>
                     <p className="copyright-text">© Copyright | 2020 HiCoder Pvt. Ltd. | All Rights Reserved.</p>
-                    <p><a href="/" style={{textDecoration:"none"}}>Privacy Policy</a> | <a href="#" style={{textDecoration:"none"}}>Terms of Service</a> | * Registration Charges Applied</p>
+                    <p><a href="/" style={{textDecoration:"none"}}>Privacy Policy</a> | <a href="/" style={{textDecoration:"none"}}>Terms of Service</a> | * Registration Charges Applied</p>
                 </div>
                 <div className="socials-container">
                     <p><i style={{color:"#1c3988"}} className="fab fa-facebook-square fa-2x"></i></p>

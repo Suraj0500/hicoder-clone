@@ -12,7 +12,7 @@ function NewsTile(props){
                 <h3 className={headingText===true ? "green" : "black"} onMouseEnter={()=>{setHeadingText(!headingText)}} onMouseLeave={()=>{setHeadingText(!headingText)}}>{props.heading}</h3>
                 <div className="bottom-news-tile">
                     <div className="complete-logo">
-                        <img src="/images/logo-avatar.png" className="news-logo" />
+                        <img src="/images/logo-avatar.png" className="news-logo" alt="new-img"/>
                         <p>HiCoder</p>
                     </div>
                     <p><i className="far fa-clock news-clock-icon" style={{color:"#67c27c"}}></i>{props.date}</p>
