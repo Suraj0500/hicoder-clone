@@ -1,0 +1,45 @@
+#review-container{
+    background-color: #f1f6fc;
+    padding: 15vh 11vw;
+}
+
+.review-title-box h1{
+    margin: 1rem 0 4rem;
+}
+
+.review-carousel-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review-left-img{
+    width: 50%;
+    background: url("./review-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review-carousel{
+    width: 50%;
+}
+
+.review-owl-theme{
+    background: white;
+    padding-bottom: 7vh;
+}
+
+
+@media (max-width: 768px){
+    #review-container{
+        background-color: #f1f6fc;
+        padding: 15vh 4vw;
+    }
+
+    .review-left-img{
+        width: 100%;
+    }
+
+    .review-carousel{
+        width: 100%;
+    }
+}

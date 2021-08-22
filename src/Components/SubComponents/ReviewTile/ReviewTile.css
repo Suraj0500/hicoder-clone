@@ -1,0 +1,24 @@
+.review-tile-container{
+    padding: 10vh 4vw;
+    height: 100% !important;
+}
+
+.desc{
+    margin: 3vh 0 5vh;
+    color: #363636;
+    font-size: 1.2rem ;
+    font-style: italic;
+    line-height: 1.9;
+}
+
+.review-tile-container h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 1.8rem 0 0.7rem;
+}
+
+.thumb-icon{
+    width: 15% !important;
+    border-radius: 50%;
+}

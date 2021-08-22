@@ -1,0 +1,18 @@
+
+.small-container{
+    padding: 15vh 11vw;
+    display: flex;
+    justify-content: space-between;
+    background: url("./shape-bg1.png");
+    background-position: 0;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+
+
+  @media (max-width: 768px) {
+    .small-container{ 
+      background: none;
+      background-color: #1c3988;
+    }
+  }

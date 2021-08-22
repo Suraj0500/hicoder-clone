@@ -1,0 +1,38 @@
+#learn-section{
+  background: url("./shape-bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.learn-title-box{
+    width: 50%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20vh;
+  }
+  
+  .learn-title-box h1{
+    margin: 1vh 0;
+  }
+
+  @media (max-width: 768px){
+    .learn-title-box{
+      width: 100% !important;
+      margin-bottom: 10vh;
+    }
+
+    .learn-title-box h1{
+      font-size: 2rem !important;
+    }
+    
+    .learn-title-box h2{
+      letter-spacing: 0.05rem;
+    }
+    
+    #learn-section{
+      padding-top: 12vh;
+      background: none;
+      background-color: #f7f8fd;
+    }
+  }

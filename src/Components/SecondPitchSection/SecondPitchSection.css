@@ -1,0 +1,82 @@
+.pitch-content-text-left div div{
+    width: 80%;
+    margin-left: auto;
+  }
+  
+  .pitch-content-text-left div div p{
+    margin: 2vh 0 3vh !important;
+  }
+  
+  
+  .btn-pitch-2{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.8vh 1.8vw;
+    margin-top: 4vh;
+  }
+
+  .pitch-content-box{
+    margin: 15vh 0;
+  }
+  
+  .pitch-content-text-right{
+    width: 50%;
+    margin-left: auto;
+    padding-top: 15vh;
+    padding-right: 3vw;
+  }
+  
+  .pitch-content-text-right h1{
+    margin: 0 0 5vh;
+  }
+  
+  .pitch-content-text-left{
+    width: 45%;
+    margin-right: auto;
+  }
+  
+  .pitch-content-text-left p{
+    margin: 4vh 0;
+  }
+  
+  .left-img{
+    height: 75vh;
+  }
+  
+  .right-img{
+    width: 38vw;
+  }
+  
+  .btn-pitch-2{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2.2vh 2vw;
+    color: white;
+    background-color: #1c3988;
+  }
+
+  .btn-pitch-2:hover{
+    color: white;
+    background-color: #244296;
+    transition: all 0.2s ease-in;
+  }
+
+
+  @media (max-width: 768px){
+    .pitch-content-text-left div div{
+      width: 100% !important;
+    }
+
+    .pitch-content-text-left div img{
+      float: none;
+      margin-bottom: 2vh;
+    }
+
+    .pitch-content-text-right{
+      padding: 5vh 0 3vh !important;
+    }
+
+    .btn-pitch-2{
+      padding: 1.5vh 4vw;
+    }
+  }

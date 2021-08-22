@@ -1,0 +1,88 @@
+.pitch-content-box{
+    margin: 15vh 0;
+  }
+  
+  .pitch-content-text-right{
+    width: 45%;
+    margin-left: auto;
+    padding-top: 15vh;
+    padding-right: 3vw;
+  }
+  
+  .pitch-content-text-right h1{
+    margin: 2vh 0 5vh !important;
+  }
+  
+  .pitch-content-text-left{
+    width: 45%;
+    margin-right: auto;
+  }
+  
+  .pitch-content-text-left p{
+    margin: 4vh 0;
+  }
+  
+  .left-img{
+    width: 36vw;
+    height: auto !important;
+    float: left;
+  }
+  
+  .right-img{
+    width: 38vw;
+    height: auto !important;
+    float: right;
+  }
+  
+  .btn-pitch{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2.2vh 2vw;
+    color: #ffffff;
+    background: #106eea;
+  }
+
+  .btn-pitch:hover{
+    background: #007bff;
+    transition: all 0.2s ease-in;
+  }
+
+  @media (max-width: 768px) {
+
+    .pitch-content-box{
+      margin: 10vh 0 !important;
+    }
+
+    .left-img{
+      float: none;
+      width: 90vw;
+    }
+
+    .pitch-content-text-right{
+      width: 100% !important; 
+    }
+
+    .pitch-content-text-right h1{
+      width: 80% !important;
+      line-height: 1.2;
+    }
+
+    .right-img{
+      width: 90vw !important;
+      float: none;
+    }
+
+    .pitch-content-text-left{
+      width: 100% !important;
+      padding-top: 5vh;
+      padding-right: 3vw;
+    }
+
+    .pitch-content-text-left h1{
+      width: 90% !important;
+    }
+
+    .btn-pitch{
+      padding: 1.5vh 4vw;
+    }
+  }

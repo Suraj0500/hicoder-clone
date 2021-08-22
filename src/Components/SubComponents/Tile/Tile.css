@@ -1,0 +1,27 @@
+.tile-container{
+    width: 23%;
+    text-align: center;
+  }
+  
+  .tile-container h1{
+    color: white;
+    margin: 3vh 0;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .tile-container h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px !important;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+
+  @media (max-width: 768px) {
+    .tile-container{
+      width: 100% !important;
+      padding: 3vh;
+    }
+  }
