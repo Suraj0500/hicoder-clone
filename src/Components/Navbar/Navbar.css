@@ -428,4 +428,9 @@
     align-items: center;
     font-family: "Poppins", sans-serif;
   }
+
+  .logo-div{
+    justify-content: flex-start;
+    margin-left: 4vw;
+  }
 }
